@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>ChatGPT Bookmarks</title>
+    <meta name="Description" content="OpenSource bookmarklet for saving chatGPT conversations"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+<body>
+  <h1>ChatGPT Simplify <a href="https://en.wikipedia.org/wiki/Bookmarklet">bookmarklet</a></h1>
+  <p>A simple script to strip down the style from ChatGPT conversations, as to allow the browser's built-in print dialogue to do its job.</p>
+  <p>Drag this link to your bookmarks <a id="bookmark" href="javascript:document.body.innerHTML=document.querySelector('main>div>div>div>div>div>div.flex').innerHTML;document.querySelectorAll('link[rel=stylesheet],button,svg.icon-sm').forEach(el => el.remove());void(0);">ChatGPT Simplify</a></p>
+</body>
+</html>
